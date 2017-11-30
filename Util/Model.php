@@ -73,5 +73,9 @@ class Model implements ModelInterface {
         return true;
          
     }
+    
+    public function getEntityManager() {
+        return $this->entityManager;
+    }
 
 }
